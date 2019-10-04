@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lexend Exa', sans-serif;
+  color: wheat;
+  background: #1A545C;
+}
+
+#carpet {
+  position: absolute;
+  top: -4px;
+  width: 102%;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  margin: 50px 0px 20px 0px;
+  text-align: center;
+  padding: 2rem;
+  background: black;
+  font-size: 40px;
+}
+header p {
+  font-size: 25px;
+  color: black;
+}
+
+.pads {
+  background: lightblue;
+  width: 60%;
+  box-shadow: 10px 10px 20px black;
+  margin-bottom: 150px;
+}
+
+.button-group {
+ background: black;
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  justify-content: space-between;
+  height: 300px;
+  border-radius: 200px;
+  padding: 48px;
+}
+
+.button {
+  width: 29px;
+  flex: 0 32%;
+  height: 66px;
+  margin-bottom: 2%;
+  border-radius: 50px;
+  background: white;
+  -webkit-box-shadow: inset 11px -9px 0px -9px rgba(0,0,0,0.55);
+  -moz-box-shadow: inset 11px -9px 0px -9px rgba(0,0,0,0.55);
+  box-shadow: inset 11px -9px 0px -9px rgba(0,0,0,0.55);
+}
+
+.button.false {
+  background: black;
+}
+
+@media (max-width: 480px){
+  header h1{
+    font-size: 35px;
+  }
+  header p{
+    font-size: 16px;
+  }
+  .pads{
+    margin-bottom: 100px;
+  }
+}

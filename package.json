@@ -1,0 +1,11 @@
+{
+  "name": "barts-toy",
+  "version": "1.0.0",
+  "description": "Bart's best present ever",
+  "main": "index.js",
+  "author": "Erik Nilsson",
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^11.2.0"
+  }
+}

@@ -1,5 +1,4 @@
 window.addEventListener('load', () => {
-    // const sounds = document.querySelectorAll(".sound");
     const buttons = document.querySelectorAll(".button-group div");
 
     if ('serviceWorker' in navigator) {
